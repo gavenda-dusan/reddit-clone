@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DG.Reddit.Application\DG.Reddit.Application.csproj" />
+  </ItemGroup>
+
 
 </Project>
