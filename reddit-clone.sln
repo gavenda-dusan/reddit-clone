@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DG.Reddit.WebAPI", "src\DG.Reddit.WebAPI\DG.Reddit.WebAPI.csproj", "{A35D4B19-627C-4082-AC84-BAED15711A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DG.Reddit.WebAPI", "src\DG.Reddit.WebAPI\DG.Reddit.WebAPI.csproj", "{A35D4B19-627C-4082-AC84-BAED15711A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DG.Reddit.Application", "src\DG.Reddit.Application\DG.Reddit.Application.csproj", "{6EB813FA-22A5-4421-B29B-9CE2AF5855D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DG.Reddit.Core", "src\DG.Reddit.Core\DG.Reddit.Core.csproj", "{F006D970-82BC-4E11-A889-ABD7FFFE5DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DG.Reddit.Data", "src\DG.Reddit.Data\DG.Reddit.Data.csproj", "{59F44728-0B4C-46E5-9321-F99CE53279C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A35D4B19-627C-4082-AC84-BAED15711A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35D4B19-627C-4082-AC84-BAED15711A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35D4B19-627C-4082-AC84-BAED15711A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB813FA-22A5-4421-B29B-9CE2AF5855D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB813FA-22A5-4421-B29B-9CE2AF5855D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB813FA-22A5-4421-B29B-9CE2AF5855D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB813FA-22A5-4421-B29B-9CE2AF5855D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F006D970-82BC-4E11-A889-ABD7FFFE5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F006D970-82BC-4E11-A889-ABD7FFFE5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F006D970-82BC-4E11-A889-ABD7FFFE5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F006D970-82BC-4E11-A889-ABD7FFFE5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F44728-0B4C-46E5-9321-F99CE53279C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F44728-0B4C-46E5-9321-F99CE53279C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F44728-0B4C-46E5-9321-F99CE53279C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F44728-0B4C-46E5-9321-F99CE53279C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
