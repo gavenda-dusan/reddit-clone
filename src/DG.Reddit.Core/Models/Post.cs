@@ -7,6 +7,8 @@ namespace DG.Reddit.Core.Models
     {
         public int PostID { get; set; }
 
+        public int SubredditID { get; set; }
+
         public DateTime DateCreated { get; set; }
 
         public DateTime? DateUpdated { get; set; }
@@ -18,5 +20,7 @@ namespace DG.Reddit.Core.Models
         public IList<Comment> Comments { get; set; }
 
         public IList<Vote> Votes { get; set; }
+
+        public Subreddit Subreddit { get; set; }
     }
 }

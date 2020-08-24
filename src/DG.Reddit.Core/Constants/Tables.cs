@@ -7,5 +7,7 @@
         public const string Comments = "Comments";
 
         public const string Votes = "Votes";
+
+        public const string Subreddits = "Subreddits";
     }
 }
