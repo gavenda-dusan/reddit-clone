@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DG.Reddit.Core\DG.Reddit.Core.csproj" />
+    <ProjectReference Include="..\DG.Reddit.Data\DG.Reddit.Data.csproj" />
   </ItemGroup>
 
 </Project>
