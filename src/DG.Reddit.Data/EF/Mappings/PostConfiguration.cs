@@ -27,6 +27,11 @@ namespace DG.Reddit.Data.EF.Mappings
                 .HasOne(x => x.Subreddit)
                 .WithMany()
                 .HasForeignKey(x => x.SubredditID);
+
+            entity
+                .HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserID);
         }
     }
 }

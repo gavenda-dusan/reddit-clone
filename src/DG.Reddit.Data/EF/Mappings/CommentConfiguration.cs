@@ -22,6 +22,11 @@ namespace DG.Reddit.Data.EF.Mappings
                 .HasMany<Vote>()
                 .WithOne(x => x.Comment)
                 .HasForeignKey(x => x.CommentID);
+
+            entity
+                .HasOne(x => x.User)
+                .WithMany()
+                .HasForeignKey(x => x.UserID);
         }
     }
 }

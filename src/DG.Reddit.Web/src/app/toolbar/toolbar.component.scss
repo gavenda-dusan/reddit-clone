@@ -14,3 +14,35 @@
 .toolbar img {
   margin: 0 16px;
 }
+
+.buttons-container {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.login-button {
+  display: flex;
+  text-transform: uppercase;
+  color: #007bff;
+  background-color: #fff;
+  border-color: #007bff;
+  font-weight: 700;
+  margin-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 12px;
+}
+
+.signup-button {
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #fff;
+  font-weight: 700;
+  margin-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 12px;
+}

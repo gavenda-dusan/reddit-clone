@@ -9,5 +9,7 @@
         public const string Votes = "Votes";
 
         public const string Subreddits = "Subreddits";
+
+        public const string Users = "Users";
     }
 }

@@ -9,6 +9,8 @@ namespace DG.Reddit.Core.Models
 
         public int SubredditID { get; set; }
 
+        public int UserID { get; set; }
+
         public DateTime DateCreated { get; set; }
 
         public DateTime? DateUpdated { get; set; }
@@ -22,5 +24,7 @@ namespace DG.Reddit.Core.Models
         public IList<Vote> Votes { get; set; }
 
         public Subreddit Subreddit { get; set; }
+
+        public User User { get; set; }
     }
 }
